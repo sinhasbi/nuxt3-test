@@ -1,0 +1,33 @@
+{
+  "name": "gaia-store",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix"
+  },
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-tsc": "^2.1.10",
+    "nuxt": "^3.14.159",
+    "pinia": "^2.2.6",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@pinia/nuxt": "^0.5.0"    
+  },
+  "devDependencies": {
+    
+    "eslint": "^9.14.0",
+    "prettier": "^3.3.3",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "eslint-config-prettier": "^9.1.0"
+  },
+  "overrides": {
+    "vue": "^3.5.12"
+  }
+}
