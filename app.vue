@@ -2,13 +2,9 @@
   <!-- <NuxtRouteAnnouncer /> -->
   <!-- <NuxtWelcome /> -->
 
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <AppHeader />
+  <NuxtPage />
+  <AppFooter />
 </template>
 
-<script lang="ts" setup>
-const num: number = 12;
-
-console.log(num);
-</script>
+<script lang="ts" setup></script>
